@@ -12,7 +12,8 @@
   "main": "index.js",
   "name": "zpo-lab8",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "version": "1.0.0",
   "devDependencies": {
