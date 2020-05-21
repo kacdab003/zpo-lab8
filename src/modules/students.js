@@ -1,6 +1,6 @@
 const Student = require('../models/Student');
 
-const getStudents = async (id = null) => Student.find({});
+const getStudents = async () => Student.find({});
 
 const getStudentById = async ({ id }) => {
   if (!id) {
